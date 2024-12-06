@@ -3,7 +3,9 @@ package tn.vermeg.pecommerce.Entites;
 import jakarta.persistence.*;
 import lombok.Data;
 
-
+@Entity
+@Data
+public class LigneCommande {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
