@@ -37,7 +37,7 @@ public class PaiementController {
             List<Paiement> paiementList = paiementService.getAllPaiements();
             return paiementList;
         }
-dfvdgbd
+
 
         @DeleteMapping("deletproduit/{id-paiement}")
         public void deletpaiement (@PathVariable("id-paiement") long idpaiement) {

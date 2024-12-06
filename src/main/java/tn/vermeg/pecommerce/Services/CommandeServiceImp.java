@@ -39,4 +39,9 @@ commandeRepository.deleteById(idCommande);
     public Commande findById(Long idCommande) {
         return commandeRepository.findById(idCommande).get();
     }
+
+    @Override
+    public List<Commande> findCommandesByUtilisateur(Long utilisateurId) {
+        return null;
+    }
 }
