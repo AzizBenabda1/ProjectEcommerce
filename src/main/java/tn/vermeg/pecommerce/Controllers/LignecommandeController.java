@@ -20,6 +20,8 @@ public class LignecommandeController {
         List<LigneCommande> ligneCommandes = ligneCommandeService.getAllLignesCommande();
         return  ligneCommandes;
     }
+
+
     @PostMapping("/add-ligne")
     public LigneCommande addligne (@RequestBody LigneCommande l){
         LigneCommande ligneCommande = ligneCommandeService.addLigneCommande(l);
