@@ -38,7 +38,7 @@ public class PaiementController {
             return paiementList;
         }
 
-
+qefszf
         @DeleteMapping("deletproduit/{id-paiement}")
         public void deletpaiement (@PathVariable("id-paiement") long idpaiement) {
             paiementService.deletePaiement(idpaiement);
